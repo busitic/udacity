@@ -10,9 +10,13 @@
  */
 
 var num = 99;
-
-while (/* your stop condition goes here */) {
-    // check value of num
+console.log(num)
+while (num <= 0) {
+    if (num < 0) {
+console.log(num)        
+    } else {
+        console.log('the end')
+    }
     // print lyrics using num
     // don't forget to check pluralization on the last line!
     // decrement num

@@ -1,8 +1,3 @@
-/*
- * Programming Quiz: 99 Bottles of Juice (4-2)
- *
- * Use the following `while` loop to write out the song "99 bottles of juice".
- * Log the your lyrics to the console.
  *
  * Note
  *   - Each line of the lyrics needs to be logged to the same line.

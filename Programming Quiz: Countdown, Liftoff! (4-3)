@@ -7,7 +7,7 @@
 // your code goes here
 var num = 60
 
-while (num > 0) {
+while (num >= 0) {
 
 if (num>50) {
     console.log('T-'+num+' '+'seconds')

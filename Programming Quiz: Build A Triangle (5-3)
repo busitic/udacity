@@ -9,10 +9,20 @@ function makeLine(length) {
         line += "* ";
     }
     return line + "\n";
+    
 }
+
+console.log(makeLine(10));
 
 // your code goes here.  Make sure you call makeLine() in your own code.
 
 
 // test your code by uncommenting the following line
 //console.log(buildTriangle(10));
+
+// 1 - need to take number from console.log
+// 2 - start at #1 this is how many * I should print out. 
+// 3 - then it increases untill it reaches 10. 
+// 4 - console.log(makeLine(10)); prints out 10 *. 
+// 5 - so I need to create another fuction (buildTriangle) to take the output of makeLine and reduce it by 1
+

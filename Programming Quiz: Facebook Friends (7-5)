@@ -21,5 +21,6 @@ var facebookProfile = {
     name: "Isaac",
     friends: "30",
     messages: ["hi nice to meet you", "what's your name", "baby face"],
-    postMessage: function postMessage()
-}
+    postMessage: function ()
+
+};

@@ -1,5 +1,13 @@
 /*
  * Programming Quiz: Donuts Revisited (7-6)
+Directions:
+Use the forEach() method to loop over the array and print out the following donut summaries using console.log.
+
+Jelly donuts cost $1.22 each
+Chocolate donuts cost $2.45 each
+Cider donuts cost $1.59 each
+Boston Cream donuts cost $5.99 each
+
  */
 
 var donuts = [
@@ -9,4 +17,7 @@ var donuts = [
     { type: "Boston Cream", cost: 5.99 }
 ];
 
-// your code goes here
+donuts.forEach(function(donut) {
+    console.log(donut.type + " donuts cost $" + donut.cost + " each");
+
+});
